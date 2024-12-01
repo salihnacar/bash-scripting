@@ -36,3 +36,22 @@ for i in 1 2 3 4
 do 
  echo "$i"
 done
+
+for i in {0..3}
+do 
+ echo "$i"
+done 
+
+
+for i in {0..10..2}
+do  
+ echo  $i
+done 
+
+
+# for loop like the other programming languages 
+for (( i=0; i<5; i++ ))
+do 
+ echo $i
+done 
+
